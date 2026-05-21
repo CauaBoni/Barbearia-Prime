@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barbearia Prime</title>
+  <meta name="description" content="Barbearia premium com atendimento exclusivo, estilo preciso e agendamento rápido no WhatsApp.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <script async defer src="https://assets.pinterest.com/js/pinit.js"></script>
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+  <div class="ambient ambient-a" aria-hidden="true"></div>
+  <div class="ambient ambient-b" aria-hidden="true"></div>
+
+  <header class="topbar reveal">
+    <p class="brand-mark">Barbearia Prime</p>
+    <nav class="topbar-nav" aria-label="Navegação principal">
+      <a href="#inicio">Início</a>
+      <a href="#experiencia">Experiência</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy reveal">
+        <p class="tag">Barbearia Premium</p>
+        <h1>Estilo clássico, acabamento contemporâneo.</h1>
+        <p class="hero-text">
+          Corte, barba e visagismo com padrão executivo. Cada sessão é pensada para valorizar seu estilo, com conforto e atenção aos detalhes.
+        </p>
+        <div class="hero-actions">
+          <a
+            class="btn btn-primary"
+            href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20quero%20agendar%20meu%20corte%20na%20Imperium%20Barber%20Lounge."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Agendar no WhatsApp
+          </a>
+          <a class="btn btn-secondary" href="#experiencia">Ver experiência</a>
+        </div>
+        <ul class="quick-metrics">
+          <li><strong>+2.500</strong><span>cortes realizados</span></li>
+          <li><strong>4.9/5</strong><span>avaliação média</span></li>
+          <li><strong>7 dias</strong><span>agenda ativa</span></li>
+        </ul>
+      </div>
+
+      <aside class="hero-media reveal" aria-label="Foto destaque da barbearia">
+        <img src="https://i.pinimg.com/originals/61/10/c8/6110c8cbf6a7ed13283dca33749475c1.jpg" alt="Referência de corte masculino estilo fade do Pinterest">
+      </aside>
+    </section>
+
+    <section class="experience" id="experiencia">
+      <header class="section-head reveal">
+        <p class="tag">Nossa Curadoria</p>
+        <h2>Uma experiência completa em três etapas</h2>
+      </header>
+
+      <div class="experience-picker reveal" aria-label="Escolher seção da experiência">
+        <a class="pick-button" href="#servicos">Serviços</a>
+        <a class="pick-button" href="#galeria">Carrossel</a>
+        <a class="pick-button" href="#inspiracoes">Inspirações</a>
+      </div>
+
+      <section class="experience-block reveal" id="servicos">
+        <h3 class="block-title">Serviços</h3>
+        <p class="panel-intro">
+          Atendimento premium para quem valoriza presença, técnica e acabamento de alto nível.
+        </p>
+        <div class="service-grid">
+          <article class="service-card">
+            <h3>Corte Signature</h3>
+            <p>Consultoria rápida de visagismo + corte técnico com acabamento refinado.</p>
+          </article>
+          <article class="service-card">
+            <h3>Barba Premium</h3>
+            <p>Alinhamento de desenho, toalha quente, navalha e finalização hidratante.</p>
+          </article>
+          <article class="service-card">
+            <h3>Combo Executive</h3>
+            <p>Corte + barba + sobrancelha para presença completa em uma única sessão.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="experience-block reveal" id="galeria">
+        <h3 class="block-title">Carrossel da Barbearia</h3>
+        <p class="panel-intro">
+          Galeria principal com rotação automática e navegação manual.
+        </p>
+        <div class="carousel" aria-label="Carrossel de fotos da barbearia">
+          <button class="carousel-btn prev" type="button" aria-label="Foto anterior">‹</button>
+          <div class="carousel-viewport">
+            <div class="carousel-track" id="carouselTrack">
+              <figure class="slide is-active">
+                <img src="ig_0cbb9d4d25e2de66016a0eef5449c8819bb1c0821d6b9b9b2e.png" alt="Corte masculino degradê retirado do Pinterest">
+              </figure>
+              <figure class="slide">
+                <img src="ig_0cbb9d4d25e2de66016a0eee698d9c819b90c00150548887c9.png" alt="Corte masculino com textura retirado do Pinterest">
+              </figure>
+            </div>
+          </div>
+          <button class="carousel-btn next" type="button" aria-label="Próxima foto">›</button>
+        </div>
+        <div class="carousel-dots" id="carouselDots" aria-label="Selecionar foto do carrossel"></div>
+      </section>
+
+      <section class="experience-block reveal" id="inspiracoes">
+        <h3 class="block-title">Inspirações de Cortes Populares</h3>
+        <p class="panel-intro">
+          Seleção de fotos e vídeos do Pinterest com tendências que estão em alta.
+        </p>
+        <div class="popular-grid">
+          <figure class="popular-card">
+            <img src="https://i.pinimg.com/736x/37/41/03/37410347961c113a721f04a861914616.jpg" alt="Low fade com topo texturizado do Pinterest">
+            <figcaption>Low Fade Texturizado</figcaption>
+          </figure>
+          <figure class="popular-card">
+            <img src="https://i.pinimg.com/1200x/df/4f/5c/df4f5c1f6af031344eaa64ae39f53646.jpg" alt="Mid fade com acabamento limpo do Pinterest">
+            <figcaption>Mid Fade Limpo</figcaption>
+          </figure>
+          <figure class="popular-card">
+            <img src="https://i.pinimg.com/1200x/96/95/ec/9695ec95c43f172f5db7fe8ddbb4a877.jpg" alt="Drop fade moderno do Pinterest">
+            <figcaption>Drop Fade Moderno</figcaption>
+          </figure>
+          <figure class="popular-card">
+            <img src="https://i.pinimg.com/1200x/1e/75/15/1e75155f50d04551eaa6d6713abb60ed.jpg" alt="French crop com fade do Pinterest">
+            <figcaption>French Crop Fade</figcaption>
+          </figure>
+          <figure class="popular-card">
+            <img src="https://i.pinimg.com/736x/58/42/5d/58425d7dec448b9fa0601550a05fbe9c.jpg" alt="Taper fade clássico do Pinterest">
+            <figcaption>Taper Clássico</figcaption>
+          </figure>
+          <figure class="popular-card">
+            <img src="https://i.pinimg.com/1200x/f9/15/db/f915db14a6179ff35de6ac8de84e3346.jpg" alt="Buzz cut com fade do Pinterest">
+            <figcaption>Buzz Fade</figcaption>
+          </figure>
+        </div>
+
+        <h4 class="video-title">Vídeos de referência</h4>
+        <div class="video-pins-grid">
+          <article class="pin-slot">
+            <a data-pin-do="embedPin" href="https://www.pinterest.com/pin/701928291956556268/"></a>
+          </article>
+          <article class="pin-slot">
+            <a data-pin-do="embedPin" href="https://www.pinterest.com/pin/691865561547771029/"></a>
+          </article>
+          <article class="pin-slot">
+            <a data-pin-do="embedPin" href="https://www.pinterest.com/pin/414471971974390311/"></a>
+          </article>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <footer id="contato" class="footer reveal">
+    <p>Imperium Barber Lounge • Atendimento com hora marcada</p>
+    <a
+      href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20quero%20agendar%20meu%20corte%20na%20Imperium%20Barber%20Lounge."
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      WhatsApp para agendamento
+    </a>
+  </footer>
+</body>
+</html>
